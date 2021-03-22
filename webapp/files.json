@@ -1,12 +1,12 @@
 {
-  "/ajax.googleapis.com": {
+  "/bootstrap": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "b10ab80c64c8469f87360126cd221889",
+    "id": "3cb971c6ba58441eaed8f072fa2f6bc7",
     "includeInFrontendExport": true,
     "owner": {
       "name": "admin"
@@ -15,30 +15,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/ajax.googleapis.com/jquery.min.js": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/javascript",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "9046f6bd58e1447499f4c523c77b37c4",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/assets": {
+  "/bootstrap/assets": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -54,7 +31,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/assets/css": {
+  "/bootstrap/assets/css": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -70,7 +47,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/assets/css/ie10-viewport-bug-workaround.css": {
+  "/bootstrap/assets/css/ie10-viewport-bug-workaround.css": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "text/css",
@@ -93,7 +70,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/assets/js": {
+  "/bootstrap/assets/js": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -109,7 +86,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/assets/js/ie-emulation-modes-warning.js": {
+  "/bootstrap/assets/js/ie-emulation-modes-warning.js": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/javascript",
@@ -132,7 +109,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/assets/js/ie10-viewport-bug-workaround.js": {
+  "/bootstrap/assets/js/ie10-viewport-bug-workaround.js": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/javascript",
@@ -155,7 +132,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/dist": {
+  "/bootstrap/dist": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -171,7 +148,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/dist/css": {
+  "/bootstrap/dist/css": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -187,7 +164,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/dist/css/bootstrap.min.css": {
+  "/bootstrap/dist/css/bootstrap.min.css": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "text/css",
@@ -210,7 +187,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/dist/js": {
+  "/bootstrap/dist/js": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -226,7 +203,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/dist/js/bootstrap.min.js": {
+  "/bootstrap/dist/js/bootstrap.min.js": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/javascript",
@@ -249,7 +226,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/favicon.ico": {
+  "/bootstrap/favicon.ico": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "image/x-icon",
@@ -276,7 +253,7 @@
     "visibleToPublicUsers": false,
     "width": null
   },
-  "/fonts": {
+  "/bootstrap/fonts": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
@@ -292,7 +269,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/fonts/glyphicons-halflings-regular.eot": {
+  "/bootstrap/fonts/glyphicons-halflings-regular.eot": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/vnd.ms-fontobject",
@@ -315,7 +292,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/fonts/glyphicons-halflings-regular.svg": {
+  "/bootstrap/fonts/glyphicons-halflings-regular.svg": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "image/svg+xml",
@@ -342,7 +319,7 @@
     "visibleToPublicUsers": false,
     "width": null
   },
-  "/fonts/glyphicons-halflings-regular.ttf": {
+  "/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/x-font-ttf",
@@ -365,7 +342,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/fonts/glyphicons-halflings-regular.woff": {
+  "/bootstrap/fonts/glyphicons-halflings-regular.woff": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/font-woff",
@@ -388,7 +365,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/fonts/glyphicons-halflings-regular.woff2": {
+  "/bootstrap/fonts/glyphicons-halflings-regular.woff2": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/octet-stream",
@@ -411,7 +388,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/jumbotron.css": {
+  "/bootstrap/jumbotron.css": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "text/css",
@@ -425,6 +402,61 @@
     ],
     "id": "d25d1b32e7ad45258c61333056dedac5",
     "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/data": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "2630d89ee808420b9325cb2987194eb1",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/data/import": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "3edb1ca6dba6438e95011d1e8611dfe3",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/data/import/projects.csv": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/csv",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "8d0dac73b01c45149e2ab5a0f2f9acb6",
+    "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {
       "name": "admin"
