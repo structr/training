@@ -38,6 +38,217 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
+  "/assets": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "331cdea4b94841aeabf1cbea7b076960",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/css": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "cf3dae1e0cb94d29a1ec2a36a5abc684",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/css/ie10-viewport-bug-workaround.css": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/css",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "404c228fdc834d4b9e6436b73d514b32",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/js": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "9460d4aee5984483ab6c62cde3ecdba7",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/js/ie-emulation-modes-warning.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "04d5c8eded314bc7a88f400009dfee53",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/js/ie10-viewport-bug-workaround.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "4fd4952e4cfe4a309ac65cfdfd5afb1b",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/dist": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "ad6334f1aa964452b596246bff4dacba",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/dist/css": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "7aec470b46664f8cb0f96607fb177f52",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/dist/css/bootstrap.min.css": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/css",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "66ed3750df8c41cea57d7bf6c87f25e9",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/dist/js": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "4437116841ff4dd9bd7275559afd2555",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/dist/js/bootstrap.min.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "893812bdc04945d9942dfd52688458e0",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
   "/favicon.ico": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
@@ -64,6 +275,141 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false,
     "width": null
+  },
+  "/fonts": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "18d545ee45c24e0eb795ff69a454e563",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/fonts/glyphicons-halflings-regular.eot": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/vnd.ms-fontobject",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "fa9b2938729246148a07993eb529067c",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/fonts/glyphicons-halflings-regular.svg": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "image/svg+xml",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "height": null,
+    "id": "86e889a35bd14e419bdb4012faa1c274",
+    "includeInFrontendExport": true,
+    "isImage": true,
+    "isTemplate": false,
+    "isThumbnail": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Image",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false,
+    "width": null
+  },
+  "/fonts/glyphicons-halflings-regular.ttf": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/x-font-ttf",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "3058bd8c963244509d5b21d79a204936",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/fonts/glyphicons-halflings-regular.woff": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/font-woff",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "bcc1e1ecda0e489384bbe68af1958e5d",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/fonts/glyphicons-halflings-regular.woff2": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/octet-stream",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "597a9cb5f27a49e9899953a8aeb0aeec",
+    "includeInFrontendExport": true,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
   },
   "/jumbotron.css": {
     "basicAuthRealm": null,

@@ -11967,6 +11967,7 @@
       "views": {
         "custom": [
           "color",
+          "description",
           "end",
           "start"
         ]
