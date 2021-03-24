@@ -1,0 +1,14 @@
+<div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Details</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+		${include_child('Details')}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="settings">
+		${include_child('Settings')}
+    </div>
+  </div>
+</div>

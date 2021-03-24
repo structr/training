@@ -1,8 +1,15 @@
 {
-  "Main Page Template-614ebf373eef46c3a1885c8d7b5964ca": {
+  "704f463ce10e4c6c96ce1073fb18e0e6": {
     "contentType": "text/html",
-    "id": "614ebf373eef46c3a1885c8d7b5964ca",
+    "id": "704f463ce10e4c6c96ce1073fb18e0e6",
     "shared": "false",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "Main Page Template-fc86242194c44060a7fac0d1804df054": {
+    "contentType": "text/html",
+    "id": "fc86242194c44060a7fac0d1804df054",
+    "shared": "true",
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   }

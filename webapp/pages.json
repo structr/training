@@ -1,4 +1,30 @@
 {
+  "project-details": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "category": null,
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "hidden": false,
+    "hideConditions": null,
+    "id": "6b0996b79e4641888a13ffeda3f01a38",
+    "owner": {
+      "name": "admin"
+    },
+    "pageCreatesRawData": false,
+    "path": null,
+    "position": null,
+    "showConditions": null,
+    "showOnErrorCodes": null,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
   "projects": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
