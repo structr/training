@@ -17,6 +17,8 @@
 				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->End Date</th>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Color</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th></th>
 			</tr>
 		</thead>
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
@@ -33,6 +35,8 @@
 				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.end, 'yyyy-MM-dd')}</td>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.color}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td style="text-align: right;"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-primary" href="/project-details/${project.id}"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Details</a></td>
 			</tr>
 		</tbody>
 	</table>
