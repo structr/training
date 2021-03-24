@@ -11942,17 +11942,28 @@
           "format": "",
           "type": "string"
         },
-        "description": {
-          "default": "",
-          "format": "",
-          "type": "string"
-        },
         "end": {
           "datePattern": "yyyy-MM-dd",
           "default": "",
           "format": "date-time",
           "indexed": true,
           "type": "string"
+        },
+        "priority": {
+          "default": "",
+          "enum": [
+            "High",
+            "Low",
+            "Medium"
+          ],
+          "indexed": true,
+          "type": "string"
+        },
+        "priorityColor": {
+          "cachingEnabled": false,
+          "default": "",
+          "readFunction": "./PM_Project/functions/priorityColor.readFunction",
+          "type": "function"
         },
         "start": {
           "datePattern": "yyyy-MM-dd",
@@ -11967,8 +11978,9 @@
       "views": {
         "custom": [
           "color",
-          "description",
           "end",
+          "priority",
+          "priorityColor",
           "start"
         ]
       }

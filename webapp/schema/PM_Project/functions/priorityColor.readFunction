@@ -1,0 +1,15 @@
+{
+	switch ($.this.priority) {
+	
+		case 'Low':
+			return '#ccffcc';
+			
+		case 'Medium':
+			return '#ffffcc';
+			
+		case 'High':
+			return '#ffcccc';
+	}
+	
+	return 'transparent';
+}

@@ -1,30 +1,39 @@
-<!DOCTYPE html>
-<!-- @structr:owner(admin), @structr:grant(admin,arwd) --><html>
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-614ebf373eef46c3a1885c8d7b5964ca" data-structr-meta-name="Main Page Template">
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-	<head>
-		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<title><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${capitalize(page.name)}</title>
-	</head>
+	<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Projects</h1>
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-	<body>
+	<table class="table" data-name="name......">
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${capitalize(page.name)}</h1>
-		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<table class="table" data-name="name......">
+		<thead>
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<tbody>
+			<tr>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<tr style="background-color: ${project.color};" data-structr-meta-data-key="project" data-structr-meta-function-query="find('PM_Project', sort('name'))">
-					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</td>
-					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.start}</td>
-					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.end}</td>
-					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.color}</td>
-				</tr>
-			</tbody>
-		</table>
-	</body>
-</html>
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Priority</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Start Date</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->End Date</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Color</th>
+			</tr>
+		</thead>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<tbody>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<tr data-structr-meta-data-key="project" data-structr-meta-function-query="find('PM_Project', sort('name'))">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td style="border-left: 5px solid ${project.priorityColor};"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.priority}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.start, 'yyyy-MM-dd')}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.end, 'yyyy-MM-dd')}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.color}</td>
+			</tr>
+		</tbody>
+	</table>
+</structr:template>
