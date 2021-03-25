@@ -1,0 +1,37 @@
+Name,Description,Duration in Days,Project,Employee
+Setup,Kickoff-Meeting and setup of project.,1,Project 1,Grace
+Setup,Kickoff-Meeting and setup of project.,1,Project 2,Grace
+Setup,Kickoff-Meeting and setup of project.,1,Project 3,Heidi
+Setup,Kickoff-Meeting and setup of project.,1,Project 4,Heidi
+Setup,Kickoff-Meeting and setup of project.,1,Project 5,Ivan
+Setup,Kickoff-Meeting and setup of project.,1,Project 6,Ivan
+Design Construction,Design the construction of the project.,6,Project 1,Alice
+Design Construction,Design the construction of the project.,6,Project 2,Alice
+Design Construction,Design the construction of the project.,4,Project 3,Bob
+Design Construction,Design the construction of the project.,4,Project 4,Bob
+Design Construction,Design the construction of the project.,2,Project 5,Carol
+Design Construction,Design the construction of the project.,2,Project 6,Carol
+Order Materials,Order materials necessary for the project.,3,Project 1,Dave
+Order Materials,Order materials necessary for the project.,3,Project 2,Dave
+Order Materials,Order materials necessary for the project.,2,Project 3,Eve
+Order Materials,Order materials necessary for the project.,2,Project 4,Eve
+Order Materials,Order materials necessary for the project.,1,Project 5,Frank
+Order Materials,Order materials necessary for the project.,1,Project 6,Frank
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 1,Grace
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 2,Grace
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 3,Heidi
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 4,Heidi
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 5,Ivan
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 6,Ivan
+Construction,Construct the designed and planned machine.,12,Project 1,Judy
+Construction,Construct the designed and planned machine.,12,Project 2,Judy
+Construction,Construct the designed and planned machine.,8,Project 3,Mallory
+Construction,Construct the designed and planned machine.,8,Project 4,Mallory
+Construction,Construct the designed and planned machine.,2,Project 5,Niaj
+Construction,Construct the designed and planned machine.,2,Project 6,Niaj
+Test and Correct,Test functionality of machine and fix issues if necessary.,3,Project 1,Grace
+Test and Correct,Test functionality of machine and fix issues if necessary.,3,Project 2,Grace
+Test and Correct,Test functionality of machine and fix issues if necessary.,2,Project 3,Heidi
+Test and Correct,Test functionality of machine and fix issues if necessary.,2,Project 4,Heidi
+Test and Correct,Test functionality of machine and fix issues if necessary.,1,Project 5,Ivan
+Test and Correct,Test functionality of machine and fix issues if necessary.,1,Project 6,Ivan

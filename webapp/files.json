@@ -443,6 +443,29 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
+  "/data/import/employees.csv": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/csv",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "33c15dfeb9904dc2adfdb71d58bda780",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
   "/data/import/projects.csv": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
@@ -455,7 +478,53 @@
         "name": "admin"
       }
     ],
-    "id": "8d0dac73b01c45149e2ab5a0f2f9acb6",
+    "id": "af01d9c4577c48d3a8bd98d16f885d3b",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/data/import/tasks-1.csv": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/csv",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "75ba3eb765794435a6dfc46ff6c90748",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/data/import/tasks-2.csv": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "text/csv",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "e6c3fe86bd214118bc9e90ed38aed635",
     "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {

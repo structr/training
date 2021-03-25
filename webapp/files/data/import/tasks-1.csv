@@ -1,0 +1,37 @@
+Name,Description,Duration in Days,Project
+Setup,Kickoff-Meeting and setup of project.,1,Project 1
+Setup,Kickoff-Meeting and setup of project.,1,Project 2
+Setup,Kickoff-Meeting and setup of project.,1,Project 3
+Setup,Kickoff-Meeting and setup of project.,1,Project 4
+Setup,Kickoff-Meeting and setup of project.,1,Project 5
+Setup,Kickoff-Meeting and setup of project.,1,Project 6
+Design Construction,Design the construction of the project.,6,Project 1
+Design Construction,Design the construction of the project.,6,Project 2
+Design Construction,Design the construction of the project.,4,Project 3
+Design Construction,Design the construction of the project.,4,Project 4
+Design Construction,Design the construction of the project.,2,Project 5
+Design Construction,Design the construction of the project.,2,Project 6
+Order Materials,Order materials necessary for the project.,3,Project 1
+Order Materials,Order materials necessary for the project.,3,Project 2
+Order Materials,Order materials necessary for the project.,2,Project 3
+Order Materials,Order materials necessary for the project.,2,Project 4
+Order Materials,Order materials necessary for the project.,1,Project 5
+Order Materials,Order materials necessary for the project.,1,Project 6
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 1
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 2
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 3
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 4
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 5
+Plan Construction,Plan individual steps and responsibilities for construction.,1,Project 6
+Construction,Construct the designed and planned machine.,16,Project 1
+Construction,Construct the designed and planned machine.,16,Project 2
+Construction,Construct the designed and planned machine.,8,Project 3
+Construction,Construct the designed and planned machine.,8,Project 4
+Construction,Construct the designed and planned machine.,2,Project 5
+Construction,Construct the designed and planned machine.,2,Project 6
+Test and Correct,Test functionality of machine and fix issues if necessary.,3,Project 1
+Test and Correct,Test functionality of machine and fix issues if necessary.,3,Project 2
+Test and Correct,Test functionality of machine and fix issues if necessary.,2,Project 3
+Test and Correct,Test functionality of machine and fix issues if necessary.,2,Project 4
+Test and Correct,Test functionality of machine and fix issues if necessary.,1,Project 5
+Test and Correct,Test functionality of machine and fix issues if necessary.,1,Project 6
