@@ -3,5 +3,7 @@
 	{"id":"2e538737366d4a37899e5c6e2aef2e41","domain":null,"imported":false,"locale":"en","localizedName":"Details","name":"details-link","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2946c4ab57704d70b9b0df2c046d7e5b","domain":null,"imported":false,"locale":"de","localizedName":"Projekte","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2f875182bcc34fc78a31fd0510d62058","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
-	{"id":"cc08d5219c8b4d2fa6031ea8731311c7","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true}
+	{"id":"cc08d5219c8b4d2fa6031ea8731311c7","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"fd0196162bc5424484b43d77ef351689","domain":null,"imported":false,"locale":"de","localizedName":"Aufgaben","name":"tasks-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"628e7f044be84460979d5032253ce667","domain":null,"imported":false,"locale":"en","localizedName":"Tasks","name":"tasks-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true}
 ]

@@ -1,0 +1,35 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-fc86242194c44060a7fac0d1804df054" data-structr-meta-name="Main Page Template">
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('tasks-header')}</h1>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<table class="table" data-name="name......">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<thead>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<tr>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Project</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Description</th>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Duration in Days</th>
+			</tr>
+		</thead>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<tbody>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<tr data-structr-meta-data-key="task" data-structr-meta-function-query="find('PM_Task', sort('name'))">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td style="border-left: 5px solid ${task.project.color};"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${task.project.name}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${task.name}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${task.description}</td>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${task.durationInDays}</td>
+			</tr>
+		</tbody>
+	</table>
+</structr:template>
