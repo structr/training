@@ -11942,6 +11942,13 @@
           "format": "",
           "type": "string"
         },
+        "durationInDays": {
+          "cachingEnabled": false,
+          "default": "",
+          "readFunction": "./PM_Project/functions/durationInDays.readFunction",
+          "type": "function",
+          "typeHint": "int"
+        },
         "end": {
           "datePattern": "yyyy-MM-dd",
           "default": "",
@@ -11971,6 +11978,13 @@
           "format": "date-time",
           "indexed": true,
           "type": "string"
+        },
+        "tasks": {
+          "$link": "#/definitions/PM_ProjectPROJECT_INCLUDES_TASKPM_Task",
+          "items": {
+            "$ref": "#/definitions/PM_Task"
+          },
+          "type": "array"
         }
       },
       "type": "object",
@@ -11978,12 +11992,51 @@
       "views": {
         "custom": [
           "color",
+          "durationInDays",
           "end",
           "priority",
           "priorityColor",
           "start"
         ]
       }
+    },
+    "PM_ProjectPROJECT_INCLUDES_TASKPM_Task": {
+      "$source": "#/definitions/PM_Project",
+      "$target": "#/definitions/PM_Task",
+      "cardinality": "OneToMany",
+      "cascade": {
+        "delete": "sourceToTarget"
+      },
+      "isAbstract": false,
+      "isInterface": false,
+      "rel": "PROJECT_INCLUDES_TASK",
+      "sourceName": "project",
+      "targetName": "tasks",
+      "type": "object"
+    },
+    "PM_Task": {
+      "isAbstract": false,
+      "isBuiltinType": false,
+      "isInterface": false,
+      "properties": {
+        "description": {
+          "default": "",
+          "format": "",
+          "indexed": true,
+          "type": "string"
+        },
+        "durationInDays": {
+          "default": "",
+          "indexed": true,
+          "type": "integer"
+        },
+        "project": {
+          "$link": "#/definitions/PM_ProjectPROJECT_INCLUDES_TASKPM_Task",
+          "$ref": "#/definitions/PM_Project",
+          "type": "object"
+        }
+      },
+      "type": "object"
     },
     "Page": {
       "$extends": "#/definitions/DOMNode",
