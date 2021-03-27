@@ -41,6 +41,19 @@
   {
     "configuration": "",
     "description": "",
+    "id": "378662f943b7427f99cf930a943693d6",
+    "isPageTemplate": false,
+    "isWidget": true,
+    "name": "Login Warning",
+    "selectors": null,
+    "source": "\u003cdiv class\u003d\"alert alert-danger\" style\u003d\"margin: 15% auto; width: 300px;\"\u003e\n\t\u003cp\u003e\u003cstrong\u003eAccess denied!\u003c/strong\u003e You must be logged in to use this application. Please use the login form at the top to log in.\u003c/p\u003e\n\u003c/div\u003e",
+    "treePath": "/Structr Training",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "configuration": "",
+    "description": "",
     "id": "e1c77c31082a4520a4c89a56f909483f",
     "isPageTemplate": false,
     "isWidget": true,
