@@ -1,0 +1,33 @@
+<!-- @structr:private, @structr:owner(admin), @structr:grant(admin,arwd) --><nav class="navbar navbar-inverse navbar-fixed-top" data-structr-meta-name="Navigation Top">
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="container">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="navbar-header">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<button class="navbar-toggle collapsed" type="button" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="sr-only"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Toggle navigation</span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span></button><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="navbar-brand" href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('project-management')}</a>
+		</div>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="navbar-collapse collapse" id="navbar">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<ul class="nav navbar-nav">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<li class="${is(eq(page.name, 'projects'), 'active')}"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('projects')}</a></li>
+			</ul>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<form class="navbar-form navbar-right">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="form-group">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<input class="form-control" placeholder="Email" type="text">
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="form-group">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<input class="form-control" placeholder="Password" type="password">
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<button class="btn btn-success" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign in</button>
+			</form>
+		</div>
+	</div>
+</nav>

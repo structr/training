@@ -1,7 +1,11 @@
 [
 	{"id":"128576dddd5347518135839fb32858e9","domain":null,"imported":false,"locale":"de","localizedName":"Details","name":"details-link","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2e538737366d4a37899e5c6e2aef2e41","domain":null,"imported":false,"locale":"en","localizedName":"Details","name":"details-link","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"2e6bb355c873440a8e7116f7853825aa","domain":null,"imported":false,"locale":"de","localizedName":"Projektmanagement","name":"project-management","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"0109847093924491b56951b401123db2","domain":null,"imported":false,"locale":"en","localizedName":"Project Management","name":"project-management","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2946c4ab57704d70b9b0df2c046d7e5b","domain":null,"imported":false,"locale":"de","localizedName":"Projekte","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2f875182bcc34fc78a31fd0510d62058","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
-	{"id":"cc08d5219c8b4d2fa6031ea8731311c7","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true}
+	{"id":"cc08d5219c8b4d2fa6031ea8731311c7","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects-header","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"e0a8fb41aa134b818ef38be604f7b567","domain":null,"imported":false,"locale":"de","localizedName":"Projekte","name":"projects","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
+	{"id":"991235164c1b4157b05868b0f121ee2b","domain":null,"imported":false,"locale":"en","localizedName":"Projects","name":"projects","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true}
 ]
