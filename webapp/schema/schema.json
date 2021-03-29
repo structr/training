@@ -11932,6 +11932,49 @@
       ],
       "type": "object"
     },
+    "PM_Employee": {
+      "isAbstract": false,
+      "isBuiltinType": false,
+      "isInterface": false,
+      "properties": {
+        "color": {
+          "default": "",
+          "format": "",
+          "indexed": true,
+          "type": "string"
+        },
+        "role": {
+          "default": "",
+          "enum": [
+            "Construction",
+            "Designer",
+            "Manager",
+            "Purchasing"
+          ],
+          "indexed": true,
+          "type": "string"
+        },
+        "tasks": {
+          "$link": "#/definitions/PM_EmployeeEMPLOYEE_IS_RESPONSIBLE_FOR_TASKPM_Task",
+          "items": {
+            "$ref": "#/definitions/PM_Task"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "PM_EmployeeEMPLOYEE_IS_RESPONSIBLE_FOR_TASKPM_Task": {
+      "$source": "#/definitions/PM_Employee",
+      "$target": "#/definitions/PM_Task",
+      "cardinality": "OneToMany",
+      "isAbstract": false,
+      "isInterface": false,
+      "rel": "EMPLOYEE_IS_RESPONSIBLE_FOR_TASK",
+      "sourceName": "employee",
+      "targetName": "tasks",
+      "type": "object"
+    },
     "PM_Project": {
       "isAbstract": false,
       "isBuiltinType": false,
@@ -12030,13 +12073,31 @@
           "indexed": true,
           "type": "integer"
         },
+        "employee": {
+          "$link": "#/definitions/PM_EmployeeEMPLOYEE_IS_RESPONSIBLE_FOR_TASKPM_Task",
+          "$ref": "#/definitions/PM_Employee",
+          "type": "object"
+        },
+        "lastestPossibleStartDate": {
+          "cachingEnabled": false,
+          "default": "",
+          "readFunction": "./PM_Task/functions/lastestPossibleStartDate.readFunction",
+          "type": "function",
+          "typeHint": "date"
+        },
         "project": {
           "$link": "#/definitions/PM_ProjectPROJECT_INCLUDES_TASKPM_Task",
           "$ref": "#/definitions/PM_Project",
           "type": "object"
         }
       },
-      "type": "object"
+      "type": "object",
+      "viewOrder": {},
+      "views": {
+        "custom": [
+          "lastestPossibleStartDate"
+        ]
+      }
     },
     "Page": {
       "$extends": "#/definitions/DOMNode",
