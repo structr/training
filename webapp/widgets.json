@@ -41,6 +41,19 @@
   {
     "configuration": "",
     "description": "",
+    "id": "74ff4381e239448da4c0d28afbe86207",
+    "isPageTemplate": false,
+    "isWidget": true,
+    "name": "Input row",
+    "selectors": null,
+    "source": "\u003cdiv class\u003d\"row\"\u003e\n\t\u003cdiv class\u003d\"col-lg-6\"\u003e\n\t\t\u003cdiv class\u003d\"form-group\"\u003e\n\t\t\t\u003clabel\u003eLabel\u003c/label\u003e\n\t\t\t\u003cinput class\u003d\"form-control\" /\u003e\n\t\t\u003c/div\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e",
+    "treePath": "Structr Training",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
+    "configuration": "",
+    "description": "",
     "id": "378662f943b7427f99cf930a943693d6",
     "isPageTemplate": false,
     "isWidget": true,
