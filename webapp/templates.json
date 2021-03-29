@@ -3,7 +3,7 @@
     "contentType": "text/html",
     "id": "704f463ce10e4c6c96ce1073fb18e0e6",
     "shared": "false",
-    "visibleToAuthenticatedUsers": false,
+    "visibleToAuthenticatedUsers": true,
     "visibleToPublicUsers": false
   },
   "Main Page Template-fc86242194c44060a7fac0d1804df054": {

@@ -11,5 +11,5 @@
 			return '#ffcccc';
 	}
 	
-	return 'transparent';
+	return 'lightgray';
 }

@@ -83,7 +83,15 @@ const setupForm = () =&gt; {
 	const formId = "project";
 	const afterCreateUrl = "/${page.name}";
 	
-	const formWidgetHelper = new BootstrapFormWidgetHelper(type, current?.length &gt; 0 ? current : null, formId);
+	const formDataTransformationFunction = (data) =&gt; {
+		if (data?.priority &amp;&amp; data.priority === 'Set priority') {
+			delete data.priority;
+		}
+		
+		return data;
+	};
+	
+	const formWidgetHelper = new BootstrapFormWidgetHelper(type, current?.length &gt; 0 ? current : null, formId, formDataTransformationFunction);
 	
 	formWidgetHelper.addEventListener('create', (entity) =&gt; {
 		window.location.href = afterCreateUrl + '/' + entity.id;

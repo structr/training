@@ -12,8 +12,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/bootstrap": {
     "grantees": [
@@ -28,8 +28,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/bootstrap/css": {
     "grantees": [
@@ -44,8 +44,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/bootstrap/css/bootstrap.min.css": {
     "basicAuthRealm": null,
@@ -67,8 +67,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/bootstrap/js": {
     "grantees": [
@@ -83,8 +83,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/bootstrap/js/bootstrap.min.js": {
     "basicAuthRealm": null,
@@ -106,8 +106,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom": {
     "grantees": [
@@ -122,8 +122,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom/css": {
     "grantees": [
@@ -138,8 +138,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom/css/custom.css": {
     "basicAuthRealm": null,
@@ -161,8 +161,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom/js": {
     "grantees": [
@@ -177,8 +177,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom/js/widgets": {
     "grantees": [
@@ -193,8 +193,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/assets/custom/js/widgets/BootstrapFormWidgetHelper.js": {
     "basicAuthRealm": null,
@@ -216,8 +216,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/data": {
     "grantees": [
@@ -356,8 +356,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer": {
     "grantees": [
@@ -372,8 +372,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/persistence": {
     "grantees": [
@@ -388,8 +388,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/persistence/Persistence.js": {
     "basicAuthRealm": null,
@@ -411,8 +411,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/persistence/model": {
     "grantees": [
@@ -427,8 +427,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/persistence/model/Node.js": {
     "basicAuthRealm": null,
@@ -450,8 +450,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/rest": {
     "grantees": [
@@ -466,8 +466,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/rest/Rest.js": {
     "basicAuthRealm": null,
@@ -489,8 +489,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/persistence-layer/rest/StructrRest.js": {
     "basicAuthRealm": null,
@@ -512,8 +512,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets": {
     "grantees": [
@@ -528,8 +528,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/FormWidgetHelper.js": {
     "basicAuthRealm": null,
@@ -551,8 +551,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/Modal.js": {
     "basicAuthRealm": null,
@@ -574,8 +574,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/Pager.js": {
     "basicAuthRealm": null,
@@ -597,8 +597,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/RequestHelper.js": {
     "basicAuthRealm": null,
@@ -620,8 +620,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form": {
     "grantees": [
@@ -636,8 +636,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormControlButton.js": {
     "basicAuthRealm": null,
@@ -659,8 +659,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormHandler.js": {
     "basicAuthRealm": null,
@@ -682,8 +682,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormInputElement.js": {
     "basicAuthRealm": null,
@@ -705,8 +705,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormInputElementResolver.js": {
     "basicAuthRealm": null,
@@ -728,8 +728,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormPersistence.js": {
     "basicAuthRealm": null,
@@ -751,8 +751,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/FormWidgetHelper.js": {
     "basicAuthRealm": null,
@@ -774,8 +774,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/input-element": {
     "grantees": [
@@ -790,8 +790,8 @@
       "name": "admin"
     },
     "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/input-element/FormInputCheckbox.js": {
     "basicAuthRealm": null,
@@ -813,8 +813,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/input-element/FormInputSelect.js": {
     "basicAuthRealm": null,
@@ -836,8 +836,8 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "/structr-lib/widgets/form/input-element/FormInputText.js": {
     "basicAuthRealm": null,
@@ -859,7 +859,7 @@
     },
     "type": "File",
     "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   }
 }

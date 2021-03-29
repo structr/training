@@ -8,7 +8,7 @@
   },
   "Navigation Top-7e874a173498412f9c6e65144208b12a": {
     "id": "7e874a173498412f9c6e65144208b12a",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   }
 }
