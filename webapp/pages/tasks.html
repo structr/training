@@ -8,7 +8,17 @@
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 			<tr>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Project</th>
+				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Project
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<br>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<select id="select-project">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<option></option>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<option selected="${is(equal(request.project, project.id), 'selected')}" value="${project.id}" data-structr-meta-data-key="project" data-structr-meta-function-query="find('PM_Project', sort('name'))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</option>
+					</select>
+				</th>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
@@ -20,7 +30,32 @@
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 		<tbody>
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<tr data-structr-meta-data-key="task" data-structr-meta-function-query="find('PM_Task', sort('name'))">
+			<tr data-structr-meta-data-key="task" data-structr-meta-function-query="{
+
+    const request   = $.request;
+    const projectId = request.project;
+
+    let project;
+    if(!$.empty(projectId)) {
+        project = $.find('PM_Project', projectId);
+    }
+
+    if(!$.empty(project)) {
+
+        return $.find(
+            'PM_Task',
+            $.predicate.equals('project', project),
+            $.predicate.sort('name')
+        );
+
+    }
+
+    return $.find(
+        'PM_Task',
+        $.predicate.sort('name')
+    );
+
+}">
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<td style="border-left: 5px solid ${task.project.color};"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${task.project.name}</td>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
@@ -32,4 +67,20 @@
 			</tr>
 		</tbody>
 	</table>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<script type="text/javascript"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/javascript) -->const projectSelect = document.getElementById('select-project');
+
+function selectProject() {
+
+    const selectedProject = projectSelect.value;
+	
+    window.location.href = '/tasks?project=' + selectedProject;
+
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+
+    projectSelect.addEventListener('change', selectProject);
+
+});</script>
 </structr:template>
