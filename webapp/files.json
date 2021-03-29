@@ -1,12 +1,12 @@
 {
-  "/bootstrap": {
+  "/assets": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "3cb971c6ba58441eaed8f072fa2f6bc7",
+    "id": "e0bd18a26f064c9386bda0a24782f50d",
     "includeInFrontendExport": true,
     "owner": {
       "name": "admin"
@@ -15,15 +15,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets": {
+  "/assets/bootstrap": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "331cdea4b94841aeabf1cbea7b076960",
-    "includeInFrontendExport": true,
+    "id": "a0372618472344db8128c40b14dbaa19",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -31,15 +31,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets/css": {
+  "/assets/bootstrap/css": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "cf3dae1e0cb94d29a1ec2a36a5abc684",
-    "includeInFrontendExport": true,
+    "id": "85f25c19cc6b458bac25e850ac3f98ff",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -47,7 +47,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets/css/ie10-viewport-bug-workaround.css": {
+  "/assets/bootstrap/css/bootstrap.min.css": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "text/css",
@@ -59,8 +59,8 @@
         "name": "admin"
       }
     ],
-    "id": "404c228fdc834d4b9e6436b73d514b32",
-    "includeInFrontendExport": true,
+    "id": "b89522f0c2df4aef91b33e1fc8d1c5d9",
+    "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {
       "name": "admin"
@@ -70,15 +70,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets/js": {
+  "/assets/bootstrap/js": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "9460d4aee5984483ab6c62cde3ecdba7",
-    "includeInFrontendExport": true,
+    "id": "4b835eb4cd24407fb8f783e5c9f4d9eb",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -86,10 +86,10 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets/js/ie-emulation-modes-warning.js": {
+  "/assets/bootstrap/js/bootstrap.min.js": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
-    "contentType": "application/javascript",
+    "contentType": "text/javascript",
     "dontCache": false,
     "enableBasicAuth": false,
     "grantees": [
@@ -98,8 +98,8 @@
         "name": "admin"
       }
     ],
-    "id": "04d5c8eded314bc7a88f400009dfee53",
-    "includeInFrontendExport": true,
+    "id": "6fb27d60b00742b1acf29a41bf4470c5",
+    "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {
       "name": "admin"
@@ -109,38 +109,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/assets/js/ie10-viewport-bug-workaround.js": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/javascript",
-    "dontCache": false,
-    "enableBasicAuth": false,
+  "/assets/custom": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "4fd4952e4cfe4a309ac65cfdfd5afb1b",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/dist": {
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "ad6334f1aa964452b596246bff4dacba",
-    "includeInFrontendExport": true,
+    "id": "57dd0ebf7be143a897e163f8ff8e373b",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -148,15 +125,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/dist/css": {
+  "/assets/custom/css": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "7aec470b46664f8cb0f96607fb177f52",
-    "includeInFrontendExport": true,
+    "id": "feb4e65ec24142a198bf4f0b8595e266",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -164,7 +141,7 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/dist/css/bootstrap.min.css": {
+  "/assets/custom/css/custom.css": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "text/css",
@@ -176,8 +153,8 @@
         "name": "admin"
       }
     ],
-    "id": "66ed3750df8c41cea57d7bf6c87f25e9",
-    "includeInFrontendExport": true,
+    "id": "6f09a594f2b64b7988c2123869a529c8",
+    "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {
       "name": "admin"
@@ -187,15 +164,15 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/dist/js": {
+  "/assets/custom/js": {
     "grantees": [
       {
         "allowed": "accessControl,read,write,delete",
         "name": "admin"
       }
     ],
-    "id": "4437116841ff4dd9bd7275559afd2555",
-    "includeInFrontendExport": true,
+    "id": "2a22bbafb39945a8be6b08d278685d42",
+    "includeInFrontendExport": false,
     "owner": {
       "name": "admin"
     },
@@ -203,7 +180,23 @@
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
-  "/bootstrap/dist/js/bootstrap.min.js": {
+  "/assets/custom/js/widgets": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "fb4e7628a39d4c1eb834219301c9ea28",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/assets/custom/js/widgets/BootstrapFormWidgetHelper.js": {
     "basicAuthRealm": null,
     "cacheForSeconds": null,
     "contentType": "application/javascript",
@@ -215,193 +208,8 @@
         "name": "admin"
       }
     ],
-    "id": "893812bdc04945d9942dfd52688458e0",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/favicon.ico": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "image/x-icon",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "height": null,
-    "id": "bdc27a2992a545b6891774ecf1a6a563",
-    "includeInFrontendExport": true,
-    "isImage": true,
-    "isTemplate": false,
-    "isThumbnail": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "Image",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false,
-    "width": null
-  },
-  "/bootstrap/fonts": {
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "18d545ee45c24e0eb795ff69a454e563",
-    "includeInFrontendExport": true,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "Folder",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/fonts/glyphicons-halflings-regular.eot": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/vnd.ms-fontobject",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "fa9b2938729246148a07993eb529067c",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/fonts/glyphicons-halflings-regular.svg": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "image/svg+xml",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "height": null,
-    "id": "86e889a35bd14e419bdb4012faa1c274",
-    "includeInFrontendExport": true,
-    "isImage": true,
-    "isTemplate": false,
-    "isThumbnail": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "Image",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false,
-    "width": null
-  },
-  "/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/x-font-ttf",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "3058bd8c963244509d5b21d79a204936",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/fonts/glyphicons-halflings-regular.woff": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/font-woff",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "bcc1e1ecda0e489384bbe68af1958e5d",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/fonts/glyphicons-halflings-regular.woff2": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "application/octet-stream",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "597a9cb5f27a49e9899953a8aeb0aeec",
-    "includeInFrontendExport": true,
-    "isTemplate": false,
-    "owner": {
-      "name": "admin"
-    },
-    "type": "File",
-    "useAsJavascriptLibrary": false,
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  "/bootstrap/jumbotron.css": {
-    "basicAuthRealm": null,
-    "cacheForSeconds": null,
-    "contentType": "text/css",
-    "dontCache": false,
-    "enableBasicAuth": false,
-    "grantees": [
-      {
-        "allowed": "accessControl,read,write,delete",
-        "name": "admin"
-      }
-    ],
-    "id": "d25d1b32e7ad45258c61333056dedac5",
-    "includeInFrontendExport": true,
+    "id": "c1ce102f8be743709caa84bfbf14b6f0",
+    "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {
       "name": "admin"
@@ -525,6 +333,525 @@
       }
     ],
     "id": "e6c3fe86bd214118bc9e90ed38aed635",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "b4ac631ced3c42a0889d42b344b62abb",
+    "includeInFrontendExport": true,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "1ffc4d78507d42a186e9e42559a3cdbe",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/persistence": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "a69acf71cd4f45e48738ded681977c92",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/persistence/Persistence.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "148a2889605a4e3aa801b625c5b828e3",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/persistence/model": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "5ec2788a103e459480d57999cca7d4c3",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/persistence/model/Node.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "4e2826ac94234cc4854475923e0c2b8d",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/rest": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "e3ff64a44a074c499b4aa7b268f41760",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/rest/Rest.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "4ab0fc10359744198856b4250cd60ce4",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/persistence-layer/rest/StructrRest.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "ba39c74e4ce940eaa263908617ca409a",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "bd8673249cef434fad86d46a4ffdb1dc",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/FormWidgetHelper.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "0cfb6aad6a954deb94be6fc3652439be",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/Modal.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "cc008088ae31474ca076afc65734aff8",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/Pager.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "1308065c025c4b338709b7c561b205a5",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/RequestHelper.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "ecc90873799e41c5a6a05b58ac426ae9",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "2641d19793a9412b9dc7c0eb89bada37",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormControlButton.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "b160679eebba4b0ba8beb666bab255c6",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormHandler.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "0923f59ceb8e4bde9917dcd401f59d93",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormInputElement.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "3d1387b04e674f8983da586a8a179880",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormInputElementResolver.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "27c35f289b124415b2461ced80db8a36",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormPersistence.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "688628d66e074f058cb9bf95af40218b",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/FormWidgetHelper.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "b6ce92c779f0446b87cb9bb3c77a76f2",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/input-element": {
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "be647b5d90674ba896ea340c29ae8c08",
+    "includeInFrontendExport": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "Folder",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/input-element/FormInputCheckbox.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "8387b57df08e47f7b9447cd4a02cfa67",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/input-element/FormInputSelect.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "0d3630e97c62485b8bfe92bae714002f",
+    "includeInFrontendExport": false,
+    "isTemplate": false,
+    "owner": {
+      "name": "admin"
+    },
+    "type": "File",
+    "useAsJavascriptLibrary": false,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "/structr-lib/widgets/form/input-element/FormInputText.js": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "contentType": "application/javascript",
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "id": "3e5b5a1e9fe84af88aa75482a6f52442",
     "includeInFrontendExport": false,
     "isTemplate": false,
     "owner": {

@@ -1,0 +1,103 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-fc86242194c44060a7fac0d1804df054" data-structr-meta-name="Main Page Template">
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="card">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-header">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="row">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="col-md-10">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Project</h1>
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="col-md-2 align-self-center"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-outline-dark float-md-end" href="/project-details/${current.id}" data-structr-meta-hide-conditions="empty(current)"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Back to project details</a></div>
+			</div>
+		</div>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-body">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="col-md-3">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<form id="form-project">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="form-group" id="form-group-name" data-structr-meta-name="name">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("name", "project")} </label>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<input class="form-control" id="project-name" name="project-name" type="text" value="${current.name}">
+							</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="form-group" id="form-group-start" data-structr-meta-name="start">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("start", "project")} </label>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<input class="form-control input-date" id="project-start" name="project-start" type="date" value="${date_format(current.start,'yyyy-MM-dd')}" data-format="dd.MM.yyyy">
+							</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="form-group" id="form-group-end" data-structr-meta-name="end">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("end", "project")} </label>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<input class="form-control input-date" id="project-end" name="project-end" type="date" value="${date_format(current.end,'yyyy-MM-dd')}" data-format="dd.MM.yyyy">
+							</div>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="form-group" id="form-group-priority" data-structr-meta-name="priority">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("priority", "project")} </label>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<select class="form-select" id="project-priority" style="width: 100%;" value="${current.priority}">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+									<option disabled="true" selected="selected" data-structr-meta-show-conditions="empty(current)"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Set priority</option>
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+									<option selected="${is(eq(current.priority, priority.value),'true')}" value="${priority.value}" data-structr-meta-data-key="priority" data-structr-meta-function-query="enum_info('PM_Project', 'priority')"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${priority.value}</option>
+								</select>
+							</div>
+						</form>
+					</div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="float-end mt-1">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-primary" id="button-project-save" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('save','form')}</button>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-primary" id="button-project-create" data-structr-meta-show-conditions="empty(current)"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('create','form')}</button>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-primary" id="button-project-edit" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('edit','form')}</button>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-secondary" id="button-project-cancel" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('cancel','form')}</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<script type="module"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/javascript) -->import { BootstrapFormWidgetHelper } from "/assets/custom/js/widgets/BootstrapFormWidgetHelper.js";
+
+const setupForm = () =&gt; {
+	const type = "PM_Project";
+	const current = "${current.id}";
+	const formId = "project";
+	const afterCreateUrl = "/${page.name}";
+	
+	const formWidgetHelper = new BootstrapFormWidgetHelper(type, current?.length &gt; 0 ? current : null, formId);
+	
+	formWidgetHelper.addEventListener('create', (entity) =&gt; {
+		window.location.href = afterCreateUrl + '/' + entity.id;
+	});
+	
+	formWidgetHelper.initialize();	
+}
+	
+const main = () =&gt; {
+	document.removeEventListener('DOMContentLoaded', main);
+	
+	setupForm();
+};
+
+document.addEventListener("DOMContentLoaded", main);
+</script>
+</structr:template>

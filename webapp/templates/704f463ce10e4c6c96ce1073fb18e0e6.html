@@ -1,13 +1,17 @@
 <div>
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Details</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  <ul class="nav nav-tabs" role="tablist" id="tabs">
+    <li role="presentation" class="nav-item">
+		<a class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" aria-controls="home" aria-selected="true" role="tab">Details</a>
+	</li>
+    <li role="presentation" class="nav-item">
+		<a class="nav-link" data-bs-toggle="tab" data-bs-target="#settings" aria-controls="settings" aria-selected="false" role="tab">Settings</a>
+	</li>
   </ul>
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">
+    <div role="tabpanel" class="tab-pane fade show active" id="home">
 		${include_child('Details')}
     </div>
-    <div role="tabpanel" class="tab-pane" id="settings">
+    <div role="tabpanel" class="tab-pane fade show" id="settings">
 		${include_child('Settings')}
     </div>
   </div>

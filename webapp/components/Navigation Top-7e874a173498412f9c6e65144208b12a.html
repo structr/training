@@ -1,32 +1,34 @@
-<!-- @structr:private, @structr:owner(admin), @structr:grant(admin,arwd) --><nav class="navbar navbar-inverse navbar-fixed-top" data-structr-meta-name="Navigation Top">
+<!-- @structr:private, @structr:owner(admin), @structr:grant(admin,arwd) --><nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-main" data-structr-meta-name="Navigation Top">
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-	<div class="container">
+	<div class="container-fluid"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="navbar-brand" href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('project-management')}</a>
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<div class="navbar-header">
-			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<button class="navbar-toggle collapsed" type="button" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="sr-only"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Toggle navigation</span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="icon-bar"></span></button><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="navbar-brand" href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('project-management')}</a>
-		</div>
+		<button class="navbar-toggler" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#navbar-main" data-bs-toggle="collapse" data-target="#navbar-main" data-toggle="collapse"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span class="navbar-toggler-icon"></span></button>
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<div class="navbar-collapse collapse" id="navbar">
+		<div class="navbar-collapse collapse" id="navbar-main">
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<ul class="nav navbar-nav">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<li class="${is(eq(page.name, 'projects'), 'active')}"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('projects')}</a></li>
+				<li class="nav-item"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="nav-link ${is(eq(page.name, 'projects'), 'active')}" href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('projects')}</a></li>
 			</ul>
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<form class="navbar-form navbar-right">
+			<form class="d-flex" data-structr-meta-name="LoginForm" data-structr-meta-show-conditions="empty(me)">
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<div class="form-group">
+				<div class="form-group me-2">
 					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 					<input class="form-control" placeholder="Email" type="text">
 				</div>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<div class="form-group">
+				<div class="form-group me-2">
 					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 					<input class="form-control" placeholder="Password" type="password">
 				</div>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<button class="btn btn-success" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign in</button>
+				<button class="btn btn-outline-light" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign in</button>
+			</form>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<form class="d-flex" data-structr-meta-name="LogoutForm" data-structr-meta-hide-conditions="empty(me)">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<button class="btn btn-outline-danger" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign out</button>
 			</form>
 		</div>
 	</div>
