@@ -3,12 +3,12 @@
     "contentType": "text/html",
     "id": "fc86242194c44060a7fac0d1804df054",
     "shared": "true",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   },
   "Navigation Top-7e874a173498412f9c6e65144208b12a": {
     "id": "7e874a173498412f9c6e65144208b12a",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
+    "visibleToAuthenticatedUsers": true,
+    "visibleToPublicUsers": true
   }
 }

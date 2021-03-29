@@ -1,4 +1,4 @@
-<!-- @structr:private, @structr:owner(admin), @structr:grant(admin,arwd) --><nav class="navbar navbar-inverse navbar-fixed-top" data-structr-meta-name="Navigation Top">
+<!-- @structr:public, @structr:owner(admin), @structr:grant(admin,arwd) --><nav class="navbar navbar-inverse navbar-fixed-top" data-structr-meta-name="Navigation Top">
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 	<div class="container">
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
@@ -14,19 +14,24 @@
 				<li class="${is(eq(page.name, 'projects'), 'active')}"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('projects')}</a></li>
 			</ul>
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<form class="navbar-form navbar-right">
+			<form action="/structr/login" class="navbar-form navbar-right" method="post" data-structr-meta-show-conditions="empty(me)">
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<div class="form-group">
 					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<input class="form-control" placeholder="Email" type="text">
+					<input class="form-control" name="name" placeholder="Email" type="text">
 				</div>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<div class="form-group">
 					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<input class="form-control" placeholder="Password" type="password">
+					<input class="form-control" name="password" placeholder="Password" type="password">
 				</div>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 				<button class="btn btn-success" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign in</button>
+			</form>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<form action="/structr/logout" class="navbar-form navbar-right" method="post" data-structr-meta-hide-conditions="empty(me)">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<button class="btn btn-danger" type="submit"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Sign out</button>
 			</form>
 		</div>
 	</div>
