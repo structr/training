@@ -12095,6 +12095,8 @@
       "viewOrder": {},
       "views": {
         "custom": [
+          "description",
+          "durationInDays",
           "lastestPossibleStartDate"
         ]
       }
