@@ -1,0 +1,215 @@
+<!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) --><structr:template src="Main Page Template-fc86242194c44060a7fac0d1804df054" data-structr-meta-name="Main Page Template">
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div class="card">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-header">
+			<!-- @structr:protected, @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="row">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="col-md-10">
+					<!-- @structr:private, @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Customer</h1>
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="col-md-2 align-self-center"><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-outline-dark float-md-end" href="/customers"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Back to overview</a></div>
+			</div>
+		</div>
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div class="card-body">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="col-md-4">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<form id="form-customer">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="form-group" id="form-group-name" data-structr-meta-name="name">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("name", "customer")} </label>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<input class="form-control" id="customer-name" name="customer-name" type="text" value="${current.name}">
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="form-group" id="form-group-projects" data-structr-meta-name="projects">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("projects", "customer")} </label>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<select class="form-select" id="customer-projects" multiple="multiple" style="width: 100%;" value="${current.projects}">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<option selected="${is(contains(current.projects, project),'selected')}" value="${project.id}" data-structr-meta-data-key="project" data-structr-meta-rest-query="PM_Project"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</option>
+							</select>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="form-group" id="form-group-address" data-structr-meta-name="address">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("address", "customer")} </label>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div class="input-group">
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<select class="form-select address-input" id="customer-address" value="${current.address}">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+									<option selected="${is(eq(current.address, address), 'true')}" value="${address.id}" data-structr-meta-data-key="address" data-structr-meta-rest-query="PM_Address"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${address.street} ${address.postal} ${address.city}</option>
+								</select>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<button class="btn btn-sm btn-primary" id="new-address-btn" type="button"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->New Address</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="float-md-end mt-1">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<button class="btn btn-primary" id="button-customer-save" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('save','form')}</button>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<button class="btn btn-primary" id="button-customer-create" data-structr-meta-show-conditions="empty(current)"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('create','form')}</button>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<button class="btn btn-primary" id="button-customer-edit" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('edit','form')}</button>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<button class="btn btn-secondary" id="button-customer-cancel" data-structr-meta-show-conditions="not(empty(current))"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('cancel','form')}</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<div id="modal-address" data-structr-meta-name="Address Modal">
+		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+		<div hidden="true" data-structr-meta-name="Modal Partial">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div class="modal d-block " role="dialog" tabindex="-1" data-structr-meta-name="modal-address">
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<div class="modal-dialog modal-lg">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<div class="modal-content">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="modal-header">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<h5 class="modal-title"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Modal title</h5>
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="modal-body">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<div>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<div>
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+									<form id="form-address">
+										<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+										<div class="form-group" id="form-group-street" data-structr-meta-name="street">
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("street", "address")} </label>
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<input class="form-control" id="address-street" name="address-street" type="text" value="${current.street}">
+										</div>
+										<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+										<div class="form-group" id="form-group-postal" data-structr-meta-name="postal">
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("postal", "address")} </label>
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<input class="form-control" id="address-postal" name="address-postal" type="text" value="${current.postal}">
+										</div>
+										<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+										<div class="form-group" id="form-group-city" data-structr-meta-name="city">
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<label class="control-label"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${localize("city", "address")} </label>
+											<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+											<input class="form-control" id="address-city" name="address-city" type="text" value="${current.city}">
+										</div>
+									</form>
+								</div>
+								<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+								<div class="float-md-end mt-1">
+									<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+									<button class="btn btn-primary" id="button-address-create"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('create','form')}</button>
+								</div>
+							</div>
+						</div>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<div class="modal-footer">
+							<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+							<button class="btn btn-secondary" type="button" data-bs-dismiss="modal"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<script type="module"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/javascript) -->import { BootstrapFormWidgetHelper } from "/assets/custom/js/widgets/BootstrapFormWidgetHelper.js";
+import { Modal } from "/structr-lib/widgets/Modal.js";
+import { FormInputText } from "/structr-lib/widgets/form/input-element/FormInputText.js";
+
+// ***** HANDLERS *****
+
+const setupCustomerForm = () =&gt; {
+	const type = "PM_Customer";
+	const current = "${current.id}";
+	const formId = "customer";
+	const afterCreateUrl = "/${page.name}";
+	
+	const formWidgetHelper = new BootstrapFormWidgetHelper(type, current?.length &gt; 0 ? current : null, formId);
+	
+	// Register custom address input element
+	formWidgetHelper.registerCustomInputElement(
+		(domNode) =&gt; domNode.classList.contains('address-input'),
+		(key, domNode) =&gt; { 
+			const addressInput = new FormInputText(key, domNode);
+
+			// Custom toggle edit mode function to toggle disabled on the "New address" button
+			addressInput.toggleEditModeFunc = () =&gt; {
+				domNode.disabled = !domNode.disabled;
+				const button = document.getElementById('new-address-btn');
+				button.disabled = !button.disabled;
+			};
+
+			return addressInput;
+		}
+	);
+	
+	formWidgetHelper.addEventListener('create', (entity) =&gt; {
+		window.location.href = afterCreateUrl + '/' + entity.id;
+	});
+	
+	formWidgetHelper.initialize();	
+}
+
+const setupModalHandler = () =&gt; {
+	const newAddressBtn = document.getElementById('new-address-btn');
+	
+	newAddressBtn.addEventListener('click', async (event) =&gt; {
+		const modalDomNode = document.getElementById('modal-address');
+		let modalPartialUrl = '/structr/html/modal-address';
+
+		const modal = new Modal(modalDomNode, modalPartialUrl);	
+		await modal.load();
+		
+		const type = "PM_Address";
+		const formId = "address";
+		const customerAddressSelect = document.getElementById('customer-address');
+
+		const formWidgetHelper = new BootstrapFormWidgetHelper(type, null, formId);
+		
+		formWidgetHelper.addEventListener('create', (entity) =&gt; {
+			const newOption = new Option(entity.name, entity.id, false, true);
+			customerAddressSelect.add(newOption);
+			modal.hide()
+		});
+
+		formWidgetHelper.initialize();
+	});
+};
+
+
+// ***** MAIN *****
+
+const main = () =&gt; {
+	document.removeEventListener('DOMContentLoaded', main);
+	
+	setupCustomerForm();
+	setupModalHandler();
+};
+
+document.addEventListener("DOMContentLoaded", main);
+</script>
+</structr:template>

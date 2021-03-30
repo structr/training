@@ -1,4 +1,5 @@
 [
+	{"id":"964b7481789748dca1fa11ef4a7c43ab","domain":null,"imported":false,"locale":"en","localizedName":"Customers","name":"customers","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"128576dddd5347518135839fb32858e9","domain":null,"imported":false,"locale":"de","localizedName":"Details","name":"details-link","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2e538737366d4a37899e5c6e2aef2e41","domain":null,"imported":false,"locale":"en","localizedName":"Details","name":"details-link","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},
 	{"id":"2e6bb355c873440a8e7116f7853825aa","domain":null,"imported":false,"locale":"de","localizedName":"Projektmanagement","name":"project-management","visibleToAuthenticatedUsers":true,"visibleToPublicUsers":true},

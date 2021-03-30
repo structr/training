@@ -11932,6 +11932,116 @@
       ],
       "type": "object"
     },
+    "PM_Address": {
+      "isAbstract": false,
+      "isBuiltinType": false,
+      "isInterface": false,
+      "methods": {
+        "onCreate": {
+          "callSuper": false,
+          "comment": "./PM_Address/methods/onCreate.comment",
+          "doExport": false,
+          "exceptions": [],
+          "isStatic": false,
+          "overridesExisting": false,
+          "source": "./PM_Address/methods/onCreate"
+        },
+        "onSave": {
+          "callSuper": false,
+          "comment": "./PM_Address/methods/onSave.comment",
+          "doExport": false,
+          "exceptions": [],
+          "isStatic": false,
+          "overridesExisting": false,
+          "source": "./PM_Address/methods/onSave"
+        },
+        "updateName": {
+          "callSuper": false,
+          "comment": "./PM_Address/methods/updateName.comment",
+          "doExport": false,
+          "exceptions": [],
+          "isStatic": false,
+          "overridesExisting": false,
+          "source": "./PM_Address/methods/updateName"
+        }
+      },
+      "properties": {
+        "city": {
+          "default": "",
+          "format": "",
+          "indexed": true,
+          "type": "string"
+        },
+        "customer": {
+          "$link": "#/definitions/PM_CustomerHAS_ADDRESSPM_Address",
+          "$ref": "#/definitions/PM_Customer",
+          "type": "object"
+        },
+        "postal": {
+          "default": "",
+          "format": "",
+          "indexed": true,
+          "type": "string"
+        },
+        "street": {
+          "default": "",
+          "format": "",
+          "indexed": true,
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "viewOrder": {},
+      "views": {
+        "custom": [
+          "city",
+          "postal",
+          "street"
+        ]
+      }
+    },
+    "PM_Customer": {
+      "isAbstract": false,
+      "isBuiltinType": false,
+      "isInterface": false,
+      "properties": {
+        "address": {
+          "$link": "#/definitions/PM_CustomerHAS_ADDRESSPM_Address",
+          "$ref": "#/definitions/PM_Address",
+          "type": "object"
+        },
+        "projects": {
+          "$link": "#/definitions/PM_CustomerCONTRACTSPM_Project",
+          "items": {
+            "$ref": "#/definitions/PM_Project"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "PM_CustomerCONTRACTSPM_Project": {
+      "$source": "#/definitions/PM_Customer",
+      "$target": "#/definitions/PM_Project",
+      "cardinality": "OneToMany",
+      "isAbstract": false,
+      "isInterface": false,
+      "rel": "CONTRACTS",
+      "sourceName": "customer",
+      "targetName": "projects",
+      "type": "object"
+    },
+    "PM_CustomerHAS_ADDRESSPM_Address": {
+      "$source": "#/definitions/PM_Customer",
+      "$target": "#/definitions/PM_Address",
+      "cardinality": "OneToOne",
+      "isAbstract": false,
+      "isInterface": false,
+      "rel": "HAS_ADDRESS",
+      "sourceName": "customer",
+      "targetName": "address",
+      "type": "object"
+    },
     "PM_Project": {
       "isAbstract": false,
       "isBuiltinType": false,
@@ -11941,6 +12051,11 @@
           "default": "",
           "format": "",
           "type": "string"
+        },
+        "customer": {
+          "$link": "#/definitions/PM_CustomerCONTRACTSPM_Project",
+          "$ref": "#/definitions/PM_Customer",
+          "type": "object"
         },
         "end": {
           "datePattern": "yyyy-MM-dd",

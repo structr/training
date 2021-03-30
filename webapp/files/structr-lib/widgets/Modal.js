@@ -13,7 +13,7 @@ export class Modal {
 
 		// set attributes
 		this.domNode        = domNode;
-		this.modal          = $(domNode);
+		this.modal          = new bootstrap.Modal(domNode);
 		this.partialEndpoint = partialEndpoint;
 		
 	}
@@ -49,7 +49,7 @@ export class Modal {
 
 		// prevent default event from firing
 		if(event) event.preventDefault();
-		this.modal.modal('hide');
+		this.modal.hide();
 
 	}
 
@@ -64,9 +64,7 @@ export class Modal {
 		// prevent default event from firing
 		if(event) event.preventDefault();
 
-		this.modal.modal({
-			show : true
-		});
+		this.modal.show();
 
 	}
 	

@@ -83,7 +83,11 @@ export class BootstrapFormWidgetHelper extends FormWidgetHelper {
 		return formControlInputs;	
 	}
 
-	
+	registerCustomInputElement(predicateFunc, inputElementConstructor) {
+		
+		return this.formInputElementResolver.registerInputElement(predicateFunc, inputElementConstructor);
+	}
+
 	registerCustomInputElements() {
 		// Put custom elements that will always be registered here
 	}

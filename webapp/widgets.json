@@ -26,6 +26,19 @@
     "visibleToPublicUsers": false
   },
   {
+    "configuration": "{\n\t\"cardTitle\": {\n\t\t\"help\": \"Title for the card\"\n\t}\n}",
+    "description": "",
+    "id": "60f35b62aa584d84b7b05c8cea1a2485",
+    "isPageTemplate": false,
+    "isWidget": true,
+    "name": "Card",
+    "selectors": null,
+    "source": "\u003cdiv class\u003d\"card\"\u003e\n\t\u003cdiv class\u003d\"card-header\"\u003e\n\t\t\u003ch1\u003e[cardTitle]\u003c/h1\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class\u003d\"card-body\"\u003e\u003c/div\u003e\n\u003c/div\u003e",
+    "treePath": "/Basic Elements",
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  {
     "configuration": "{\t\n\t\"processDeploymentInfo\": true,\n\t\"formName\": {\n\t\t\"help\": \"The Prefix that was used also for the form in wich this widget can be inserted\"\n\t}, \n\t\"attributeName\": {\n\t\t\"help\": \"This has to be the exact attribute name as it is set in the schema data type\"\n\t},\n\t\"labelLocalizationKey\": {\n\t\t\"help\": \"This represents the text for the new checkbox. There should be a localization set for the label. Otherwise it is recommended to remove the localization once this widget is imported.\"\n\t},\n\t\"labelLocalizationDomain\": {\n\t\t\"help\": \"When there is a localizaion set for the label, insert the domain of that localization here\"\n\t}\t\n}",
     "description": "",
     "id": "ab317dec4e4b43a4a22c46f3e0993e03",
@@ -74,19 +87,6 @@
     "selectors": null,
     "source": "\u003cdiv\u003e\n\t\u003cdiv\u003e\n\t\t\u003cform id\u003d\"form-[formId]\"\u003e\u003c/form\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class\u003d\"float-md-end mt-1\"\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-save\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027save\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-create\" data-structr-append-id\u003d\"false\" data-structr-meta-show-conditions\u003d\"empty(current)\"\u003e${localize(\u0027create\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-edit\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027edit\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-secondary\" id\u003d\"button-[formId]-cancel\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027cancel\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e",
     "treePath": "/Forms",
-    "visibleToAuthenticatedUsers": false,
-    "visibleToPublicUsers": false
-  },
-  {
-    "configuration": "{\n\t\"formId\": {\n\t\t\"help\": \"This prefix has to be the same through the whole editform. It defines wich elements belong to the form.\"\n\t},\n\t\"dataType\": {\n\t\t\"default\": \"${if(empty(current), request.type, current.type)}\",\n\t\t\"help\": \"This specifies for wich data type of the schema the form is for.\"\n\t}\n}",
-    "description": "",
-    "id": "bf0c7f2f61a14443849f514e4f7ce6b6",
-    "isPageTemplate": false,
-    "isWidget": true,
-    "name": "Form (copied)",
-    "selectors": null,
-    "source": "\u003cdiv\u003e\n\t\u003cdiv\u003e\n\t\t\u003cform id\u003d\"form-[formId]\"\u003e\u003c/form\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class\u003d\"float-right\"\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-save\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027save\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-create\" data-structr-append-id\u003d\"false\" data-structr-meta-show-conditions\u003d\"empty(current)\"\u003e${localize(\u0027create\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-primary\" id\u003d\"button-[formId]-edit\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027edit\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\t\u003cbutton class\u003d\"btn btn-secondary\" id\u003d\"button-[formId]-cancel\" data-structr-meta-show-conditions\u003d\"not(empty(current))\"\u003e${localize(\u0027cancel\u0027,\u0027form\u0027)}\u003c/button\u003e\n\t\u003c/div\u003e\n\u003c/div\u003e",
-    "treePath": null,
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },
