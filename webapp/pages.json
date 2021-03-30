@@ -13,7 +13,7 @@
     ],
     "hidden": false,
     "hideConditions": null,
-    "id": "228b9225e2014c9cbcc8fa2e308eb08c",
+    "id": "4fcc89a8995d4cfc9d8d7f909b0a92b0",
     "owner": {
       "name": "admin"
     },
@@ -21,8 +21,8 @@
     "path": null,
     "position": 20,
     "showConditions": null,
-    "showOnErrorCodes": "404",
-    "visibleToAuthenticatedUsers": false,
+    "showOnErrorCodes": "404, 403, 500",
+    "visibleToAuthenticatedUsers": true,
     "visibleToPublicUsers": true
   },
   "project-details": {
@@ -72,6 +72,58 @@
     "pageCreatesRawData": false,
     "path": null,
     "position": 10,
+    "showConditions": null,
+    "showOnErrorCodes": null,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "task-details": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "category": null,
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "hidden": false,
+    "hideConditions": null,
+    "id": "8a5e10d48cc8472ca1ac5cb45a82f818",
+    "owner": {
+      "name": "admin"
+    },
+    "pageCreatesRawData": false,
+    "path": null,
+    "position": null,
+    "showConditions": null,
+    "showOnErrorCodes": null,
+    "visibleToAuthenticatedUsers": false,
+    "visibleToPublicUsers": false
+  },
+  "tasks": {
+    "basicAuthRealm": null,
+    "cacheForSeconds": null,
+    "category": null,
+    "dontCache": false,
+    "enableBasicAuth": false,
+    "grantees": [
+      {
+        "allowed": "accessControl,read,write,delete",
+        "name": "admin"
+      }
+    ],
+    "hidden": false,
+    "hideConditions": null,
+    "id": "decde6b966d44a769dff71d24c2e2b87",
+    "owner": {
+      "name": "admin"
+    },
+    "pageCreatesRawData": false,
+    "path": null,
+    "position": null,
     "showConditions": null,
     "showOnErrorCodes": null,
     "visibleToAuthenticatedUsers": false,

@@ -41,7 +41,7 @@
   {
     "configuration": "",
     "description": "",
-    "id": "74ff4381e239448da4c0d28afbe86207",
+    "id": "5385a2c0b7e5468e85ddcc04c9f8314f",
     "isPageTemplate": false,
     "isWidget": true,
     "name": "Input row",
@@ -54,13 +54,13 @@
   {
     "configuration": "",
     "description": "",
-    "id": "378662f943b7427f99cf930a943693d6",
+    "id": "d24e3adcaa0d454189743c9850e116de",
     "isPageTemplate": false,
     "isWidget": true,
-    "name": "Login Warning",
+    "name": "Login warning",
     "selectors": null,
     "source": "\u003cdiv class\u003d\"alert alert-danger\" style\u003d\"margin: 15% auto; width: 300px;\"\u003e\n\t\u003cp\u003e\u003cstrong\u003eAccess denied!\u003c/strong\u003e You must be logged in to use this application. Please use the login form at the top to log in.\u003c/p\u003e\n\u003c/div\u003e",
-    "treePath": "/Structr Training",
+    "treePath": "Structr Training",
     "visibleToAuthenticatedUsers": false,
     "visibleToPublicUsers": false
   },

@@ -1,0 +1,17 @@
+{
+
+	const self = $.this;
+	
+	const project = self.project;
+	const deadline = project.end;
+	const duration = self.durationInDays;
+	
+	if($.empty(deadline) || $.empty(duration)) {
+		return;
+	}
+	
+	deadline.setDate(deadline.getDate() - duration);
+	
+	return deadline;
+
+}

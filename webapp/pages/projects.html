@@ -2,47 +2,55 @@
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
 	<h1><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('projects-header')}</h1>
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-	<table class="table" data-name="name......">
+	<div class="projects" id="">
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<thead>
+		<table class="table" data-name="name......">
 			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<tr>
+			<thead>
 				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Priority</th>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Start Date</th>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->End Date</th>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Color</th>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<th></th>
-			</tr>
-		</thead>
-		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<tbody>
-			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-			<tr data-structr-meta-data-key="project" data-structr-meta-function-query="find('PM_Project', sort('name'))">
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td style="border-left: 5px solid ${project.priorityColor};"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.priority}</td>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</td>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.start, 'yyyy-MM-dd')}</td>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.end, 'yyyy-MM-dd')}</td>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.color}</td>
-				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-				<td style="text-align: right;">
+				<tr>
 					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-					<button class="btn btn-xs btn-danger" data-structr-target="${project.id}" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;delete&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Delete</button><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-primary btn-xs" href="/project-details/${project.id}"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('details-link')}</a>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+					<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Priority</th>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</th>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Start Date</th>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->End Date</th>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<th><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Color</th>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<th class="text-right">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-secondary" data-page="${int(subt(request.page!1, 1))}" data-structr-reload-target=".projects" data-structr-target="page" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;page&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) -->&amp;lt;</button><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><span><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) --> ${request.page!1} </span>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-secondary" data-page="${int(add(request.page!1, 1))}" data-structr-reload-target=".projects" data-structr-target="page" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;page&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/html) -->&amp;gt;</button>
+					</th>
+				</tr>
+			</thead>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<tbody>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<tr data-structr-meta-data-key="project" data-structr-meta-function-query="find('PM_Project', sort('name'), page(request.page!1, 3))">
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td style="border-left: 5px solid ${project.priorityColor};"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.priority}</td>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.name}</td>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.start, 'yyyy-MM-dd')}</td>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${date_format(project.end, 'yyyy-MM-dd')}</td>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${project.color}</td>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<td style="text-align: right;">
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<button class="btn btn-danger" data-structr-reload-target=".projects" data-structr-target="${project.id}" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;delete&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Delete</button><!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-primary" href="/project-details/${project.id}"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->${localize('details-link')}</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-	<button class="btn btn-success" data-structr-target="PM_Project" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;create&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Create project</button>
+	<button class="btn btn-success" data-structr-reload-target=".projects" data-structr-target="PM_Project" data-structr-meta-event-mapping="{ &quot;click&quot;: &quot;create&quot; }"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Add project</button>
 </structr:template>
