@@ -1,0 +1,830 @@
+[
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184963963,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "fbc17d03f6c340018bc34032bf0d2547",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184963963,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964026,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "a4975a0a463742a4ab35390e003386a2",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964027,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964047,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "8de2ef247ac5477b81c1885bf7550beb",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964047,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964054,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "a5155a2618d34675a4c27c72dd9266be",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964054,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964060,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "a5b3615c85064c3896bbe7cf8bce4f25",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964060,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964065,
+  "description": "Kickoff-Meeting and setup of project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "ff0a211a684c47f9a9f43cd634c77e8b",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964065,
+  "name": "Setup",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964070,
+  "description": "Design the construction of the project.",
+  "durationInDays": 6,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "680a5709a0044efcbc312bebadc517d1",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964070,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964075,
+  "description": "Design the construction of the project.",
+  "durationInDays": 6,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "938b0cda4d3a430794f808d5bad98f01",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964075,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964078,
+  "description": "Design the construction of the project.",
+  "durationInDays": 4,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "d83bea9159f64f9ab63e89ef8fc0a9ff",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964078,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964082,
+  "description": "Design the construction of the project.",
+  "durationInDays": 4,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "0495a6d5ae474715a1a59a450f19bffc",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964082,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964092,
+  "description": "Design the construction of the project.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "929cd1a6be144d76b9289ac5c6c6c7d5",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964092,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964113,
+  "description": "Design the construction of the project.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "3c72497785b745a28891e1884254b2e1",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964113,
+  "name": "Design Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964122,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 3,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "1cc7f5733388417a94effe580a2135ce",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964122,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964126,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 3,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "96cc30f421194f32909583271ce779bc",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964126,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964129,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "557abf5a1f7a4ce4ab77018647314d7c",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964129,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964135,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "bc968a5737ea420b9a3267701178c2a1",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964135,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964139,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "fe9d6ae193a549f7a530b2756d29cfad",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964139,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964143,
+  "description": "Order materials necessary for the project.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "3faac383c2f6483088255b6132e05bc4",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964143,
+  "name": "Order Materials",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964147,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "42bdf9cfae7e4f6aa2075398985777e5",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964147,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964151,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "24c43bbba8dc4008acc2cab7cb3f1e75",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964151,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964154,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "c07c0ae08c2e4cb2b3a25225db542b87",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964154,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964157,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "b2d707c7d5a345daaa32d13fd44945af",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964157,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964160,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "e48f50ccb1ce4fee9c339f08d25deb06",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964160,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964165,
+  "description": "Plan individual steps and responsibilities for construction.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "5ce31ecf12c74afca597fa9b6322aaa0",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964165,
+  "name": "Plan Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964169,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 16,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "de1ffa1cd442408cb6e315512090175f",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964169,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964173,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 16,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "a519bf5621034a7b997793cdbbb22404",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964173,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964177,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 8,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "a62e5bbaf53d4087ad7208cf8f6ec072",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964177,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964180,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 8,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "f020719b423f47fcbb97d494e3185716",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964180,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964184,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "13afdc8a626540ee8cddd3b69df54b1a",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964184,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964188,
+  "description": "Construct the designed and planned machine.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "70a334e0810e4c6b9c9d2d26103e7304",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964188,
+  "name": "Construction",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964192,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 3,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "9e261d9345724f55a55bfddcae9e4328",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964192,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964196,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 3,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "2b4a1509b5004d98b0a8ea6d0842f16b",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964196,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964200,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "6e204e34b66545df8ea91722b48e34c2",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964201,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964205,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 2,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "3f3af675849143ecb2361df22f949351",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964205,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964209,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "791be1555c41465aa9d5aa26c337655c",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964209,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+},
+{
+  "createdBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "createdDate": 1617184964213,
+  "description": "Test functionality of machine and fix issues if necessary.",
+  "durationInDays": 1,
+  "grantees": [
+    {
+      "allowed": "accessControl,read,write,delete",
+      "name": "admin"
+    }
+  ],
+  "hidden": false,
+  "id": "80bed00767244f4397a721fb1a7beff8",
+  "lastModifiedBy": "f75edb2683684c1294cc11c15d5b5c98",
+  "lastModifiedDate": 1617184964213,
+  "name": "Test and Correct",
+  "owner": {
+    "name": "admin"
+  },
+  "type": "PM_Task",
+  "visibleToAuthenticatedUsers": false,
+  "visibleToPublicUsers": false
+}
+]

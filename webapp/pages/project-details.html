@@ -27,7 +27,78 @@
 			</div>
 		</div>
 		<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
-		<div data-structr-meta-name="Settings"></div>
+		<div style="padding: 2em 1em;" data-structr-meta-name="Vanilla Editing">
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<label><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Name</label>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<p>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<input id="name" value="${current.name}">
+				</p>
+			</div>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<label><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Color</label>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<p>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<input id="color" value="${current.color}">
+				</p>
+			</div>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<label><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Priority</label>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<p>
+					<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+					<select>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<option selected="${is(equal(current.priority, 'High'), 'selected')}" value="High"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->High</option>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<option selected="${is(equal(current.priority, 'Medium'), 'selected')}" value="Medium"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Medium</option>
+						<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+						<option selected="${is(equal(current.priority, 'Low'), 'selected')}" value="Low"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Low</option>
+					</select>
+				</p>
+			</div>
+			<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+			<div>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<button class="btn btn-success" id="save-button"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Save</button>
+				<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+				<button class="btn btn-danger" id="delete-button"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Delete</button>
+			</div>
+		</div>
 	</structr:template>
 <!-- @structr:owner(admin), @structr:grant(admin,arwd) --><a class="btn btn-primary" href="/projects"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/plain) -->Back to projects list</a>
+	<!-- @structr:owner(admin), @structr:grant(admin,arwd) -->
+	<script type="text/javascript"><!-- @structr:owner(admin), @structr:grant(admin,arwd), @structr:content(text/javascript) -->async function saveProject() {
+
+	// collect input elements
+	
+	// collect data
+	
+	// collect uuid
+	
+	// update existing task
+	
+	// create new task
+	
+	// reload page
+
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+	
+    // hook save button
+    const saveButton = document.getElementById('save-button');
+    if(saveButton) {
+        saveButton.addEventListener('click', saveProject);
+    }
+
+});</script>
 </structr:template>
